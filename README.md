@@ -11,4 +11,7 @@ P.s. we'd love some feedback on the challenges too! If you have any feedback, go
 ## Full Stack Engineer Challenges
 1. [Movies List Challenge](fullstack/README.md)
 
+## Backend Engineer Challenges
+1. [Item Group Challenge](backend/README.md)
+
 _Note that these challenges do not reflect our existing hardware and software solutions. Their purpose is to check some basic relevant skills, your submission will not be used for any other purposes!_
