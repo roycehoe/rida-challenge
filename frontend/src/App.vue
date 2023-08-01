@@ -1,24 +1,31 @@
 <script setup lang="ts">
-import Filter from "./components/Filter.vue";
+import FilterInput from "./components/FilterInput.vue";
 </script>
 
 <template>
   <div>
-    <Filter></Filter>
+    <div>
+      <FilterInput></FilterInput>
+      <FilterInput></FilterInput>
+      <FilterInput></FilterInput>
+      <FilterInput></FilterInput>
+      <FilterInput></FilterInput>
+      <FilterInput></FilterInput>
+      <FilterInput></FilterInput>
+      <FilterInput></FilterInput>
+      <FilterInput></FilterInput>
+      <FilterInput></FilterInput>
+    </div>
+    <div class="m-4 flex justify-between">
+      <div>
+        <button class="btn">Add filter</button>
+      </div>
+      <div class="space-x-4">
+        <button class="btn btn-outline">Reset</button>
+        <button class="btn btn-outline btn-accent">Search</button>
+      </div>
+    </div>
   </div>
 </template>
 
-<style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
-}
-</style>
+<style scoped></style>
